@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="16dp"
+    tools:context=".ActivityDaycareInfo">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <TextView
+        android:id="@+id/pilihanak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Pilih anak \n yang ingin didaftarkan"
+        android:textAlignment="center"
+        android:textSize="16sp">
+
+    </TextView>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/childPickConfirm"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pilihanak"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="#959595"
+        android:layout_centerHorizontal="true">
+
+        <AutoCompleteTextView
+            android:id="@+id/et_child_pick"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Pilih Anak"
+            android:inputType="none">
+
+        </AutoCompleteTextView>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/bt_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/childPickConfirm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Konfirmasi"
+        android:textAllCaps="false">
+
+    </Button>
+</RelativeLayout>
+</LinearLayout>

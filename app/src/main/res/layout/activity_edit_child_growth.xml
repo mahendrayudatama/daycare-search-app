@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_data_pertumbuhan_anak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Data Pertumbuhan anak"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp">
+
+    </TextView>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/cfirst_name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_data_pertumbuhan_anak"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="#959595">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_edit_berat_badan"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Berat Badan(Kg)"
+            android:inputType="number"
+            android:paddingStart="25dp"
+            android:paddingLeft="25dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/clast_name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cfirst_name"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="#959595">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_edit_tinggi_badan"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Tinggi Badan(cm)"
+            android:inputType="number"
+            android:paddingStart="25dp"
+            android:paddingLeft="25dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/cdate"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/clast_name"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="#959595">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_edit_date_picker_growth"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:drawableRight="@drawable/ic_baseline_date_range_24"
+            android:hint="Tanggal Pengukuran"
+            android:inputType="none"
+            android:paddingStart="25dp"
+            android:paddingLeft="25dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_edit_submitChildGrowth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cdate"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:paddingVertical="15dp"
+        android:text="Simpan"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+</RelativeLayout>

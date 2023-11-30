@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "118258023256",
+    "firebase_url": "https://kidcare-b6e4f-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "kidcare-b6e4f",
+    "storage_bucket": "kidcare-b6e4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118258023256:android:f4ba0dff05e8fe1a1e032d",
+        "android_client_info": {
+          "package_name": "com.example.kidcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118258023256-i9o82l8ligod5s8jnkhhko7rjauc9vac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSOmLljyVPqEG9VRe_yOn5OCr31L7IeIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118258023256-i9o82l8ligod5s8jnkhhko7rjauc9vac.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

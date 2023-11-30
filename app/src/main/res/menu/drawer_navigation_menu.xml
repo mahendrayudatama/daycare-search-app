@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboard"
+        android:icon="@drawable/ic_baseline_dashboard_24"
+        android:title="Dasboard"></item>
+    <item
+        android:id="@+id/activity"
+        android:icon="@drawable/ic_baseline_school_24"
+        android:title="Activity"></item>
+    <item
+        android:id="@+id/transaction"
+        android:icon="@drawable/ic_baseline_attach_money_24"
+        android:title="Transaction"></item>
+<!--    <item-->
+<!--        android:id="@+id/growth"-->
+<!--        android:icon="@drawable/ic_baseline_stroller_24"-->
+<!--        android:title="Growth"/>-->
+</menu>

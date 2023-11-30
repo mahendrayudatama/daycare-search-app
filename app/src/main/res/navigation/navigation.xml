@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/activity">
+
+    <fragment
+        android:id="@+id/activity"
+        android:name="com.example.boondaproject.ActivityFragment"
+        android:label="fragment_activity"
+        tools:layout="@layout/fragment_activity" />
+    <fragment
+        android:id="@+id/dashboard"
+        android:name="com.example.boondaproject.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/liveMoments"
+        android:name="com.example.boondaproject.LiveMomentsFragment"
+        android:label="fragment_live_moments"
+        tools:layout="@layout/fragment_live_moments" />
+    <fragment
+        android:id="@+id/payment"
+        android:name="com.example.boondaproject.PaymentFragment"
+        android:label="fragment_payment"
+        tools:layout="@layout/fragment_payment" />
+    <fragment
+        android:id="@+id/registerChild"
+        android:name="com.example.boondaproject.RegisterChildFragment"
+        android:label="fragment_register_child"
+        tools:layout="@layout/fragment_register_child" />
+</navigation>
